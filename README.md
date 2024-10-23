@@ -1,6 +1,11 @@
 # Forahia Project Management Solution
 A project management application built with Laravel 11 and React.
 
+![dashboard](./dashbaord.png)
+![projects](./projects.png)
+![all-tasks](./all-tasks.png)
+![users](./users.png)
+
 ## Features
 1. Registration & Login
 2. Projects CRUD with sorting, filtering and pagination

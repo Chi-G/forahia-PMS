@@ -22,7 +22,6 @@ export default function Login({ status, canResetPassword }) {
 
     const submit = (e) => {
         e.preventDefault();
-
         post(route("login"));
     };
 
@@ -58,9 +57,8 @@ export default function Login({ status, canResetPassword }) {
                     <InputLabel htmlFor="password" value="Password" />
 
                     <TextInput
-                        id="password"
+                        id="password"  // Only one id here
                         type="password"
-                        id="password"
                         name="password"
                         value={data.password}
                         className="mt-1 block w-full"
@@ -95,6 +93,14 @@ export default function Login({ status, canResetPassword }) {
                             Forgot your password?
                         </Link>
                     )}
+
+                    {/* Register Button */}
+                    <Link
+                        href={route("register")} // This should point to your registration route
+                        className="underline text-sm text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 dark:focus:ring-offset-gray-800 ms-4"
+                    >
+                        Register
+                    </Link>
 
                     <PrimaryButton className="ms-4" disabled={processing}>
                         Log in
