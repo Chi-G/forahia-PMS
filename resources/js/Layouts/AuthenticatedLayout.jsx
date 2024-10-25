@@ -4,6 +4,7 @@ import Dropdown from "@/Components/Dropdown";
 import NavLink from "@/Components/NavLink";
 import ResponsiveNavLink from "@/Components/ResponsiveNavLink";
 import { Link } from "@inertiajs/react";
+import Footer from "@/Components/Footer";
 
 export default function AuthenticatedLayout({ user, header, children }) {
   const [showingNavigationDropdown, setShowingNavigationDropdown] =
@@ -23,6 +24,7 @@ export default function AuthenticatedLayout({ user, header, children }) {
 
               <div className="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
                 <NavLink
+                    href={route("dashboard")}
                     className="text-dark-green uppercase font-bold"
                     style={{ color: '#22C55E', fontWeight: 'bold' }}
                   >
@@ -197,6 +199,7 @@ export default function AuthenticatedLayout({ user, header, children }) {
       )}
 
       <main>{children}</main>
+      <Footer />
     </div>
   );
 }
