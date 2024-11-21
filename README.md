@@ -22,6 +22,10 @@ PMS was built using Laravel 11 and React.
 8. Start vite server - `npm run dev`
 9. Start Artisan server - `php artisan serve`
 
+### Author
+Chijindu Nwokeohuru | 
+Laravel Developer | chijindu.nwokeohuru@gmail.com
+
 ## Demo
 https://pms.forahia.org.ng/
 
