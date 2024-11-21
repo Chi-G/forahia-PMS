@@ -28,3 +28,9 @@ export const TASK_PRIORITY_TEXT_MAP = {
   medium: "Medium",
   high: "High",
 };
+export const USER_STATUS_CLASS_MAP = {
+  /* your mapping here */
+};
+export const USER_STATUS_TEXT_MAP = {
+  /* your mapping here */
+};

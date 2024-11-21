@@ -1,5 +1,7 @@
-# Forahia Project Management Solution
-A project management application built with Laravel 11 and React.
+# Laravel 11 + React SPA Project
+A simple project management application using Laravel 11 and React.
+
+The project was developed for [the following](https://youtu.be/VrQRa-afCAk) YouTube tutorial.
 
 ## Features
 1. Registration & Login
@@ -22,6 +24,6 @@ A project management application built with Laravel 11 and React.
 8. Start vite server - `npm run dev`
 9. Start Artisan server - `php artisan serve`
 
-### Author
-Chijindu Nwokeohuru | 
-Laravel Developer | chijindu.nwokeohuru@gmail.com
+## Demo
+Coming soon...
+
